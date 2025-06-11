@@ -1,12 +1,33 @@
-# React + Vite
+# Tarea 4 - CoffeeShopWorld ☕
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en una tienda en línea desarrollada con React y React Router DOM. Forma parte de la Tarea 4, donde se implementa un sistema de navegación y carrito de compras usando consumo de APIs.
 
-Currently, two official plugins are available:
+## 🔗 Enlace al video en Loom
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Ver demostración en Loom](https://www.loom.com/share/efd71fcee4ad4964b4182cdffe5f894f?sid=0ada1d76-b656-4862-9801-5aae947724aa)
 
-## Expanding the ESLint configuration
+## 🧩 Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✔️ Rutas definidas con React Router:
+  - `/` → Lista de productos
+  - `/finish-shop` → Resumen del carrito
+  - `*` → Página no encontrada
+
+- ✔️ Consumo de API externa de café:
+  - Endpoint: `https://api.sampleapis.com/coffee/hot`
+  - Se asigna precio aleatorio (Q100 – Q300)
+
+- ✔️ Carrito funcional:
+  - Botón "+" agrega productos
+  - Ícono del carrito muestra cantidad total
+  - Vista `/finish-shop` muestra nombre, imagen, cantidad y subtotal
+
+## 🧠 Tecnologías
+
+- React
+- React Router DOM
+- Vite
+
+---
+
+> Proyecto realizado por Julio Soza como parte de la evaluación de Tarea 4 - Desarrollo en React.
