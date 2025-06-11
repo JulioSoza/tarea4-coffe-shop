@@ -1,0 +1,49 @@
+.navbar {
+  background-color: #d6caca;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky; /* ✅ Se queda fija */
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-weight: bold;
+  color: #3b2b28;
+  margin: 0;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-links span {
+  cursor: pointer;
+  color: #3b2b28;
+  font-weight: 500;
+}
+
+.nav-links button {
+  background-color: #5d3b2e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.cart-icon {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.cart-icon sup {
+  color: purple;
+  font-weight: bold;
+}
+
+

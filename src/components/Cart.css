@@ -1,0 +1,27 @@
+.cart {
+  padding: 2rem;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.cart th, .cart td {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.cart img {
+  width: 80px;
+}
+
+.cart button {
+  background-color: #5d3b2e;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
